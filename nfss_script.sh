@@ -2,7 +2,6 @@
 
 set -e
 
-apt update
 apt install -y nfs-kernel-server
 
 mkdir -p /srv/share/upload
